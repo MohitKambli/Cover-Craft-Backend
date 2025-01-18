@@ -1,6 +1,6 @@
 import boto3
 from werkzeug.utils import secure_filename
-from config import Config
+from app.config import Config
 
 # Initialize S3 client
 s3_client = boto3.client(

@@ -3,7 +3,7 @@ from PyPDF2 import PdfReader
 import google.generativeai as genai
 import tempfile
 import os
-from .config import Config
+from app.config import Config
 
 def extract_resume_text(resume_url):
     """
