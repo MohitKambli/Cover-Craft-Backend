@@ -23,7 +23,6 @@ def generate_cover_letter_api():
 
         # Generate the cover letter using the S3 pre-signed URL
         cover_letter = generate_cover_letter(resume_url, job_description)
-        print('Cover Letter: ', cover_letter)
         return jsonify({'cover_letter': cover_letter})
 
     except Exception as e:
