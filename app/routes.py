@@ -4,6 +4,10 @@ from app.s3_utils import upload_file_to_s3
 
 api = Blueprint('api', __name__)
 
+@api.route('/hello', methods=['GET'])
+def hello():
+    return 'Hello World'
+
 @api.route('/generate-cover-letter', methods=['POST'])
 def generate_cover_letter_api():
     try:
