@@ -11,5 +11,11 @@
       "src": "/(.*)",
       "dest": "app/index.py"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/generate-cover-letter",
+      "destination": "https://cover-craft-backend.vercel.app/generate-cover-letter"
+    }
   ]
 }
