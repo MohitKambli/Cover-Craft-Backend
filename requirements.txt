@@ -65,9 +65,9 @@ google-auth-httplib2==0.2.0
 google-generativeai==0.8.3
 googleapis-common-protos==1.66.0
 # Editable install with no version control (gradio==4.36.1)
--e d:\programming\python\opensourcecontributions\gradio
+# -e d:\programming\python\opensourcecontributions\gradio
 # Editable install with no version control (gradio_client==1.0.1)
--e d:\programming\python\opensourcecontributions\gradio\client\python
+# -e d:\programming\python\opensourcecontributions\gradio\client\python
 greenlet==3.1.1
 grpcio==1.69.0
 grpcio-status==1.69.0
