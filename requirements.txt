@@ -6,7 +6,6 @@ annotated-types==0.7.0
 anyio==4.3.0
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
--e git+https://github.com/MohitKambli/armi.git@aa758f3a49d9e71f0ba4d616fcaf49df4091bfa5#egg=armi
 arrow==1.3.0
 astrapy==0.3.0
 asttokens==2.4.1
@@ -64,10 +63,6 @@ google-auth==2.37.0
 google-auth-httplib2==0.2.0
 google-generativeai==0.8.3
 googleapis-common-protos==1.66.0
-# Editable install with no version control (gradio==4.36.1)
-# -e d:\programming\python\opensourcecontributions\gradio
-# Editable install with no version control (gradio_client==1.0.1)
-# -e d:\programming\python\opensourcecontributions\gradio\client\python
 greenlet==3.1.1
 grpcio==1.69.0
 grpcio-status==1.69.0
