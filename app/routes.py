@@ -8,7 +8,7 @@ api = Blueprint('api', __name__)
 def hello():
     return 'Hello World'
 
-@api.route('/generate-cover-letter', methods=['POST'])
+@api.route('/generate-cover-letter', methods=['GET'])
 def generate_cover_letter_api():
     try:
         # Get the uploaded resume file and job description
